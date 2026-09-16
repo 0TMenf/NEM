@@ -1,6 +1,6 @@
 # Welcome to NEM!
 
-[中文](READMEcn.md)
+[中文](readmecn.md)
 
 It's so so so so so so so so so so so so so so so so so so so so nice to meet you, my friend :)
 
