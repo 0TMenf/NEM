@@ -1,0 +1,86 @@
+# ==========================================================
+#  Notch_Escape_Mini 语言文件
+#  颜色代码使用 & 开头，例如 &a &c &e
+#  {xxx} 是占位符，请勿修改花括号内容
+# ==========================================================
+
+prefix: "&8[&cNE&8] &r"
+
+command:
+  no-permission: "{prefix}&c你没有权限使用该命令。"
+  only-player: "{prefix}&c该命令只能由玩家执行。"
+  arena-not-found: "{prefix}&c没有找到地图 &e{name}"
+  arena-exists: "{prefix}&c地图 &e{name} &c已存在。"
+  arena-created: "{prefix}&a已创建地图 &e{name}&a。"
+  arena-deleted: "{prefix}&a已删除地图 &e{name}&a。"
+  arena-saved: "{prefix}&a已保存地图 &e{name}&a。"
+  arena-enabled: "{prefix}&a地图 &e{name} &a已启用并加载。"
+  arena-disabled: "{prefix}&a地图 &e{name} &a已禁用并卸载。"
+  arena-loading: "{prefix}&e地图 &e{name} &e正在加载中，请稍候……"
+  arena-not-ready: "{prefix}&c地图缺少配置项: &e{missing}"
+  arena-full: "{prefix}&c该房间已满。"
+  already-in-room: "{prefix}&c你已经在某个房间中，先使用 &e/ne leave &c离开。"
+  not-in-room: "{prefix}&c你当前不在任何房间中。"
+  not-in-game: "{prefix}&c该地图当前没有对局。"
+  edit-entered: "{prefix}&a已进入编辑模式：&e{name}"
+  edit-not-editing: "{prefix}&c你还没有在编辑任何地图，先用 &e/ne edit <地图>"
+  point-set: "{prefix}&a已设置 &e{point}&a: &7{location}"
+  patrol-added: "{prefix}&a已添加巡逻点 #{index} &7({location})"
+  patrol-cleared: "{prefix}&a已清空巡逻点。"
+  reloaded: "{prefix}&a配置已重载。"
+  game-start: "{prefix}&a对局开始！"
+  game-stopped: "{prefix}&a已结束对局 &e{name}"
+
+gui:
+  room-title: "&8选择房间"
+  team-title: "&8选择阵营 - {arena}"
+  room-loading: "&c加载中……"
+  room-available: "&a可加入"
+  room-waiting: "&e等待中 {current}/{max}"
+  room-running: "&c游戏中"
+  room-full: "&c已满"
+  room-lore: "&7地图: &f{name}"
+  room-lore-state: "&7状态: {state}"
+  room-lore-players: "&7玩家: &f{current}/{max}"
+  team-gu: "&c古振兴"
+  team-notch: "&aNotch"
+  team-gu-lore: "&7点击加入古振兴阵营"
+  team-notch-lore: "&7点击加入Notch阵营"
+  team-gu-full: "&c古振兴阵营已满"
+  team-notch-full: "&cNotch阵营已满"
+
+join:
+  joined-room: "{prefix}&a你加入了房间 &e{arena}&a。"
+  joined-team: "{prefix}&a你加入了 &e{team}&a 阵营。"
+  left-room: "{prefix}&a你已离开房间。"
+  team-full: "{prefix}&c该阵营已满。"
+  waiting-players: "{prefix}&e当前人数 &f{current}/{min}&e，还需要 &f{need} &e人。"
+  countdown: "{prefix}&e对局将在 &f{seconds} &e秒后开始……"
+  countdown-cancelled: "{prefix}&c人数不足，倒计时取消。"
+  game-starting: "{prefix}&a对局即将开始！"
+
+game:
+  welcome: "&c你在冰冷的地下室里醒来。头疼得厉害……"
+  subtitle-wake: "&7这里是古振兴的家"
+  pick-under-key: "&e你在砖缝里摸到一把锈迹斑斑的&6地下室钥匙&e。"
+  pick-toilet-key: "&e马桶水箱后面有一把&6厕所钥匙&e。"
+  pick-bedroom-key: "&e抽屉里躺着&6卧室钥匙&e。"
+  pick-front-key: "&e你拿到了&6大门钥匙&e！"
+  door-locked: "&c门锁着，你需要先找到钥匙。"
+  front-door-open: "&c大门发出刺耳的嘎吱声——他醒了！！"
+  escape-start: "&c快跑！！5 秒内找个地方躲起来！"
+  escape-fail: "&4你没能及时找到藏身之处……"
+  hide-start: "&7你蜷缩在废弃屋子里，屏住呼吸……"
+  hide-success: "&a脚步声远去了……现在去警察局！"
+  hide-fail: "&4你发出了声响……古振兴发现你了。"
+  caught: "&4古振兴抓住了 {name}！"
+  notch-win: "&a§lNotch 阵营逃出生天！他们报警了！"
+  gu-win: "&4§l古振兴把所有 Notch 都抓住了。"
+  time-up: "&c时间耗尽。"
+
+actionbar:
+  need-key: "&c需要钥匙: &e{key}"
+  escape-timer: "&c逃跑倒计时: &e{seconds}"
+  hide-timer: "&a躲藏中: &e{seconds}"
+  sleep-warning: "&e小心！他正在睡觉，保持潜行！"
+  noise-warning: "&c你发出了声音！"

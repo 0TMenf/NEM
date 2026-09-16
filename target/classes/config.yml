@@ -1,0 +1,24 @@
+# ==========================================================
+#  Notch_Escape_Mini 全局配置
+# ==========================================================
+# 每张地图的数据保存在:
+#   plugins/Notch_Escape_Mini/arenas/<name>/arena.yml
+# 地图世界文件夹保存在服务器根目录:
+#   <server>/ne_<name>/
+
+game:
+  # 一个房间最少几名玩家可开始
+  min-players: 3
+  # 一个房间最多多少玩家
+  max-players: 24
+  # 每方最多人数
+  max-gu: 6
+  max-notch: 18
+  # 等待房间开始的倒计时（秒）
+  start-countdown: 90
+  # 世界重置加载时的提示
+  loading-icon: REDSTONE_BLOCK
+
+messages:
+  # 提示玩家等候大厅是否启用
+  lobby-not-set: "&c等待大厅尚未设置"

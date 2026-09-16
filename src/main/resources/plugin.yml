@@ -1,0 +1,18 @@
+name: Notch_Escape_Mini
+version: Alpha-0.0.1
+main: top.pinkoc.nem.NotchEscapeMini
+api-version: '1.21'
+author: pinkoc
+description: Notch Escape Mini - Alpha
+commands:
+  notchescape:
+    description: 主命令
+    aliases: [ne, nem]
+    usage: /ne help
+permissions:
+  notchescape.admin:
+    description: 管理员
+    default: op
+  notchescape.player:
+    description: 普通玩家
+    default: true
